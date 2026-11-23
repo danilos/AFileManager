@@ -48,3 +48,12 @@ not by itself change that component's licensing status.
 
 This release's MPL-2.0 choice and copyright name do not determine licensing
 terms or publication timing for future AFileManager or AROSA releases.
+
+
+## Screenshots
+
+### AROS x86_64 — AFileManager 0.18.6.0.0.0
+
+SDK-built AFileManager successfully launched and rendered its graphical interface on 64-bit AROS (23 November 2026). This screenshot confirms startup/UI rendering, not all filesystem operations or long-term stability.
+
+![AFileManager running on AROS x86_64](screenshots/AFileManager-0.18.6.0.0.0-x86_64-AROS.png)
