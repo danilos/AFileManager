@@ -1,0 +1,121 @@
+/* AIDEa HTML Viewer Level 1 stylesheet */
+
+body {
+  font-name: Arial;
+  font-size: 10;
+  color: black;
+  background-color: rgb(41, 202, 194);
+  text-align: left;
+  indent: 8;
+  spacing-after: 8;
+}
+
+p {
+  font-name: Arial;
+  font-size: 10;
+  color: black;
+  text-align: left;
+  indent: 8;
+  spacing-after: 8;
+}
+
+h1 {
+  font-name: Arial;
+  font-size: 56;
+  font-style: bold;
+  color: rgb(143, 5, 35);
+  text-align: left;
+  indent: 8;
+  spacing-after: 14;
+}
+
+h2 {
+  font-name: Arial;
+  font-size: 18;
+  font-style: bold;
+  color: navy;
+  text-align: left;
+  indent: 8;
+  spacing-after: 12;
+}
+
+h3 {
+  font-name: Arial;
+  font-size: 14;
+  font-style: bold;
+  color: black;
+  text-align: left;
+  indent: 8;
+  spacing-after: 10;
+}
+
+li {
+  font-name: Arial;
+  font-size: 10;
+  color: black;
+  text-align: left;
+  indent: 28;
+  spacing-after: 4;
+}
+
+a {
+  font-name: Arial;
+  font-size: 10;
+  color: blue;
+  font-style: underline;
+  text-align: left;
+  indent: 8;
+  spacing-after: 8;
+}
+
+code {
+  font-name: Courier New;
+  font-size: 10;
+  color: black;
+  background-color: #E8E8E8;
+  use-background: true;
+  indent: 16;
+  spacing-after: 8;
+}
+
+pre {
+  font-name: Courier New;
+  font-size: 10;
+  color: black;
+  background-color: #E8E8E8;
+  use-background: true;
+  indent: 16;
+  spacing-after: 8;
+}
+
+img {
+  text-align: left;
+  spacing-after: 8;
+}
+
+hr {
+  spacing-after: 14;
+}
+
+div {
+  indent: 24;
+  margin: 8;
+  padding: 8;
+  background-color: rgb(240, 240, 240);
+  use-background: true;
+  border-width: 1;
+  border-color: gray;
+}
+
+.center {
+  text-align: center;
+}
+
+.button {
+  background-color: #d8e8ff;
+  use-background: true;
+  border-width: 1;
+  border-color: navy;
+  padding: 10;
+  margin: 10;
+}

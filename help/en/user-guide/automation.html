@@ -1,0 +1,7 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Console, ARexx and Macros</title><link rel="stylesheet" href="../default.css"></head><body>
+<h1>Console, ARexx and Macros</h1>
+<p>The Console, ARexx and Macro surfaces share the canonical command service used by menus and toolbar controls. Automation therefore dispatches the same command identifiers rather than maintaining a separate implementation of file-manager behaviour.</p>
+<h2>Console</h2><p>Choose Console from the Commands operation page, or use <em>Open Console Here</em> on a folder. The interactive console opens as its own document tab beside Files and editable documents. Opening it again reuses the same tab and moves the session to the requested location. Local commands use the platform shell; remote locations expose the supported location-service commands. Command failures and unavailable operations are shown visibly in the console/status instead of being left only in diagnostics.</p>
+<h2>ARexx</h2><p>The application exposes the <code>AFILEMANAGER.1</code> ARexx port. Registered verbs include Refresh, Up, Back, Copy, Paste and Delete.</p>
+<h2>Command history</h2><p>Executed command identifiers can be retained in <code>AFileManager.commands</code> according to the descriptor's command-history settings.</p>
+</body></html>

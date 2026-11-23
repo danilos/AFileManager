@@ -1,0 +1,94 @@
+; AROSA theme colours - shared layer (Arosa:themes/default/theme.colours)
+;
+; Layered themes: an application's own themes/default/theme.colours is read
+; first; a role it does not define is taken from this file; a role no file
+; defines keeps AROSA's built-in value.  Values: #RRGGBB.  Every line below
+; is a commented template - uncomment and set a role to override it.
+;
+; The window descriptor's [Bubbles.Dark] / [Bubbles.Light] colours are
+; applied after this file (the most specific application setting).
+
+[Dark]
+;WindowBackground=#RRGGBB
+;PanelBackground=#RRGGBB
+;EditorBackground=#RRGGBB
+;ControlBackground=#RRGGBB
+;PrimaryText=#RRGGBB
+;SecondaryText=#RRGGBB
+;Border=#RRGGBB
+;Selection=#RRGGBB
+;Focus=#RRGGBB
+;Accent=#RRGGBB
+;Error=#RRGGBB
+;Warning=#RRGGBB
+;Hint=#RRGGBB
+;Information=#RRGGBB
+;GitModified=#RRGGBB
+;GitAdded=#RRGGBB
+;GitDeleted=#RRGGBB
+;TitleBarBackground=#RRGGBB
+;StatusBarBackground=#RRGGBB
+;TabActive=#RRGGBB
+;TabInactive=#RRGGBB
+;OnAccent=#RRGGBB
+;DisabledText=#RRGGBB
+;Divider=#RRGGBB
+;InputBackground=#RRGGBB
+;MenuBarBackground=#RRGGBB
+;MenuBackground=#RRGGBB
+;MenuItemText=#RRGGBB
+;ShortcutText=#RRGGBB
+;ScrollbarTrack=#RRGGBB
+;ScrollbarThumb=#RRGGBB
+;Shadow=#RRGGBB
+;Scrim=#RRGGBB
+; names of remote locations and of files listed from them
+;RemoteLocation=#RRGGBB
+;BubbleBackground=#RRGGBB
+;BubbleText=#RRGGBB
+;BubbleTitle=#RRGGBB
+;BubbleBorder=#RRGGBB
+;BubbleLink=#RRGGBB
+
+[Light]
+;WindowBackground=#RRGGBB
+;PanelBackground=#RRGGBB
+;EditorBackground=#RRGGBB
+;ControlBackground=#RRGGBB
+;PrimaryText=#RRGGBB
+;SecondaryText=#RRGGBB
+;Border=#RRGGBB
+;Selection=#RRGGBB
+;Focus=#RRGGBB
+;Accent=#RRGGBB
+;Error=#RRGGBB
+;Warning=#RRGGBB
+;Hint=#RRGGBB
+;Information=#RRGGBB
+;GitModified=#RRGGBB
+;GitAdded=#RRGGBB
+;GitDeleted=#RRGGBB
+;TitleBarBackground=#RRGGBB
+;StatusBarBackground=#RRGGBB
+;TabActive=#RRGGBB
+;TabInactive=#RRGGBB
+;OnAccent=#RRGGBB
+;DisabledText=#RRGGBB
+;Divider=#RRGGBB
+;InputBackground=#RRGGBB
+;MenuBarBackground=#RRGGBB
+;MenuBackground=#RRGGBB
+;MenuItemText=#RRGGBB
+;ShortcutText=#RRGGBB
+;ScrollbarTrack=#RRGGBB
+;ScrollbarThumb=#RRGGBB
+;Shadow=#RRGGBB
+;Scrim=#RRGGBB
+; names of remote locations and of files listed from them
+;RemoteLocation=#RRGGBB
+;BubbleBackground=#RRGGBB
+;BubbleText=#RRGGBB
+;BubbleTitle=#RRGGBB
+;BubbleBorder=#RRGGBB
+;BubbleLink=#RRGGBB
+

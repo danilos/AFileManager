@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 100 100"
+   width="100%"
+   height="100%"
+   version="1.1"
+   id="svg3"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3" />
+  <!-- Left Finger Loop (Blue) -->
+  <circle
+     cx="30"
+     cy="74"
+     r="14"
+     stroke="#48529A"
+     stroke-width="10"
+     fill="none"
+     id="circle1" />
+  <!-- Right Finger Loop (Magenta) -->
+  <circle
+     cx="70"
+     cy="74"
+     r="14"
+     stroke="#C55997"
+     stroke-width="10"
+     fill="none"
+     id="circle2" />
+  <!-- Left Blade Cross (Orange) -->
+  <path
+     d="M 38,62 L 72,20"
+     stroke="#F6962A"
+     stroke-width="12"
+     stroke-linecap="round"
+     fill="none"
+     id="path2" />
+  <!-- Right Blade Cross (Yellow) -->
+  <path
+     d="M 62,62 L 28,20"
+     stroke="#FAD13A"
+     stroke-width="12"
+     stroke-linecap="round"
+     fill="none"
+     id="path3" />
+  <!-- Center Pivot Pin (Red) -->
+  <circle
+     cx="50"
+     cy="48"
+     r="6"
+     fill="#EE544B"
+     id="circle3" />
+</svg>

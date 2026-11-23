@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" fill="none">
+
+    <path d="M68 26H154L202 74V202C202 211 195 218 186 218H68C59 218 52 211 52 202V42C52 33 59 26 68 26Z" stroke="#4355B6" stroke-width="12" stroke-linejoin="round"/>
+    <path d="M154 26V74H202" stroke="#4355B6" stroke-width="12" stroke-linejoin="round"/>
+    <path d="M154 26V74H202Z" fill="#C85AA8" opacity="0.95"/>
+    
+<polygon points="104,96 162,128 104,160" fill="#C85AA8"/>
+<polygon points="118,106 158,128 118,150" fill="#F2C94C"/>
+<rect x="86" y="166" width="92" height="28" rx="14" fill="#F39A1E"/>
+<rect x="100" y="172" width="8" height="16" rx="2" fill="white"/>
+<line x1="114" y1="172" x2="114" y2="188" stroke="white" stroke-width="4" stroke-linecap="round"/>
+<line x1="114" y1="172" x2="126" y2="188" stroke="white" stroke-width="4" stroke-linecap="round"/>
+<line x1="126" y1="172" x2="126" y2="188" stroke="white" stroke-width="4" stroke-linecap="round"/>
+<line x1="136" y1="172" x2="148" y2="172" stroke="white" stroke-width="4" stroke-linecap="round"/>
+<line x1="136" y1="180" x2="148" y2="180" stroke="white" stroke-width="4" stroke-linecap="round"/>
+<line x1="136" y1="188" x2="148" y2="188" stroke="white" stroke-width="4" stroke-linecap="round"/>
+</svg>

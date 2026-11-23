@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 100 100"
+   width="100%"
+   height="100%"
+   version="1.1"
+   id="svg4"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <!-- Top Tab -->
+  <path
+     d="M 20,25 H 45 C 50,25 52,28 55,32 L 60,38 H 80 C 85,38 88,41 88,46 V 75 C 88,80 85,83 80,83 H 20 C 15,83 12,80 12,75 V 33 C 12,28 15,25 20,25 Z"
+     fill="none"
+     id="path1" />
+  <!-- Back Folder Shell -->
+  <path
+     d="M 20,28 L 42,28 C 46,28 48,31 51,35 L 56,42 L 80,42 C 84,42 86,44 86,48"
+     stroke="#48529A"
+     stroke-width="12"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     fill="none"
+     id="path2" />
+  <!-- Folder Front Body Accent -->
+  <path
+     d="M 14,48 L 86,48"
+     stroke="#C55997"
+     stroke-width="12"
+     stroke-linecap="round"
+     fill="none"
+     id="path3" />
+  <path
+     d="M 86,48 V 74 C 86,78 84,80 80,80 H 20 C 16,80 14,78 14,74 V 48"
+     stroke="#F6962A"
+     stroke-width="12"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     fill="none"
+     id="path4" />
+  <!-- Inner Detail / File Tab -->
+  <circle
+     cx="50"
+     cy="64"
+     r="6"
+     fill="#EE544B"
+     id="circle4" />
+</svg>

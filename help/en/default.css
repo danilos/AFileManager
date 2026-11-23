@@ -1,0 +1,13 @@
+body { font-name: Arial; font-size: 11; color: black; background-color: white; text-align: left; indent: 10; spacing-after: 8; }
+p { font-name: Arial; font-size: 11; color: black; text-align: left; indent: 10; spacing-after: 8; }
+h1 { font-name: Arial; font-size: 28; font-style: bold; color: navy; text-align: left; indent: 10; spacing-after: 14; }
+h2 { font-name: Arial; font-size: 18; font-style: bold; color: navy; text-align: left; indent: 10; spacing-after: 10; }
+h3 { font-name: Arial; font-size: 14; font-style: bold; color: black; text-align: left; indent: 10; spacing-after: 8; }
+li { font-name: Arial; font-size: 11; color: black; text-align: left; indent: 28; spacing-after: 4; }
+a { font-name: Arial; font-size: 11; color: blue; font-style: underline; text-align: left; indent: 10; spacing-after: 6; }
+code { font-name: Courier New; font-size: 10; color: black; background-color: #E8E8E8; use-background: true; indent: 14; spacing-after: 6; }
+pre { font-name: Courier New; font-size: 10; color: black; background-color: #E8E8E8; use-background: true; indent: 14; spacing-after: 8; }
+table { indent: 10; spacing-after: 10; }
+th { font-style: bold; background-color: #E8E8E8; use-background: true; padding: 4; }
+td { padding: 4; }
+div { indent: 12; margin: 6; padding: 8; background-color: #F3F3F3; use-background: true; border-width: 1; border-color: gray; }

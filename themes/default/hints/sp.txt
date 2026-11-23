@@ -1,0 +1,64 @@
+# AFileManager hints - Español
+# Copyright (c) 2026 DaniloS
+# MPL-2.0
+#
+# Application-owned hints and richer control descriptions.
+# Shared AROSA widget/window hints belong in the AROSA hint catalogue.
+# Generated/audited against the current AFileManager source and descriptors.
+
+# Navigation and locations
+afilemanager_hint_back=Atrás
+afilemanager_hint_breadcrumbs=Haga clic en una carpeta para abrirla; haga clic en el área vacía para escribir una ruta.
+afilemanager_hint_clear_places_filter=Borrar filtro de ubicaciones
+afilemanager_hint_filter_places=Escriba texto para filtrar ubicaciones conservando su ruta de grupo.
+afilemanager_hint_forward=Adelante
+afilemanager_hint_home=Ubicación de inicio
+afilemanager_hint_places=Seleccione un grupo de ubicaciones o una ubicación para abrirla.
+afilemanager_hint_primary_path=Ubicación actual. Escriba una ruta y pulse Intro.
+afilemanager_hint_secondary_path=Ubicación secundaria. Escriba una ruta y pulse Intro.
+afilemanager_hint_up=Ubicación superior
+
+# Filtering and search
+afilemanager_hint_clear_filter=Borrar filtro
+afilemanager_hint_clear_search=Borrar búsqueda
+afilemanager_hint_filter_primary=Escriba texto para filtrar la colección de recursos actual.
+afilemanager_hint_filter_secondary=Escriba texto para filtrar la colección de recursos secundaria.
+afilemanager_hint_search_primary=Buscar en la ubicación actual. El texto normal encuentra subcadenas; se aceptan patrones de AmigaDOS.
+afilemanager_hint_search_secondary=Buscar en la ubicación secundaria. El texto normal encuentra subcadenas; se aceptan patrones de AmigaDOS.
+
+# Toolbar view/panel hints
+afilemanager_hint_toolbar_details=Mostrar recursos en vista de detalles
+afilemanager_hint_toolbar_hidden=Mostrar u ocultar archivos ocultos
+afilemanager_hint_toolbar_icons=Mostrar recursos en vista de iconos
+afilemanager_hint_toolbar_list=Mostrar recursos en vista de lista
+afilemanager_hint_toolbar_metadata=Mostrar u ocultar el panel de metadatos
+afilemanager_hint_toolbar_preview=Mostrar u ocultar el panel de vista previa
+afilemanager_hint_toolbar_redo=Rehacer la última operación
+afilemanager_hint_toolbar_split=Mostrar u ocultar el segundo panel de ubicación
+afilemanager_hint_toolbar_thumbnails=Mostrar u ocultar miniaturas de recursos
+afilemanager_hint_toolbar_undo=Deshacer la última operación
+
+# Toolbar descriptions
+afilemanager_desc_toolbar_details=Muestra columnas de tipo, nombre, tamaño, fecha y permisos. Se aplica al panel activo.
+afilemanager_desc_toolbar_hidden=Muestra u oculta archivos y carpetas marcados como ocultos. La configuración se aplica a ambos paneles.
+afilemanager_desc_toolbar_icons=Muestra los elementos como una cuadrícula de iconos. Se aplica al panel activo.
+afilemanager_desc_toolbar_list=Muestra solo los nombres, en filas compactas. Se aplica al panel activo.
+afilemanager_desc_toolbar_metadata=Muestra la página Metadatos del panel: tamaño, fechas, tipo y detalles de Datatype del elemento seleccionado. Puede estar abierta junto con la página Vista previa.
+afilemanager_desc_toolbar_preview=Muestra la página Vista previa del panel: imágenes, texto, HTML, AmigaGuide y contenido de archivos del elemento seleccionado. Puede estar abierta junto con la página Metadatos.
+afilemanager_desc_toolbar_redo=Vuelve a aplicar la última operación de archivo deshecha. Se rechaza si el destino está ahora ocupado.
+afilemanager_desc_toolbar_split=Muestra un segundo panel de ubicación junto al primero para copiar y comparar entre dos carpetas.
+afilemanager_desc_toolbar_thumbnails=Muestra vistas previas compactas cuando el recurso seleccionado puede proporcionarlas.
+afilemanager_desc_toolbar_undo=Revierte la última operación de archivo. No se deshace nada si eso sobrescribiría o eliminaría datos creados después.
+
+# Application actions
+afilemanager_hint_about=Mostrar información de versión, proyecto y documentación.
+afilemanager_hint_close_file_manager=Cerrar el gestor de archivos mostrado en la segunda vista (Ctrl+W)
+afilemanager_hint_configuration=Configurar AFileManager.
+afilemanager_hint_help=Abrir el sistema de ayuda integrado de AFileManager.
+afilemanager_hint_info=Mostrar información de compilación, subsistema y configuración.
+afilemanager_hint_new_file_manager=Abrir otro gestor de archivos en la segunda vista (Ctrl+T)
+
+# Preview / metadata / status
+afilemanager_metadata_hint=Seleccione un elemento para ver sus metadatos.
+afilemanager_preview_load_hint=Descargar este archivo y mostrar su vista previa
+afilemanager_status_conflict_hint=Elija Reemplazar u Omitir; marque «aplicar a todos» para los conflictos restantes.

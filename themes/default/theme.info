@@ -1,0 +1,27 @@
+[Theme]
+Id=default
+Name=Default
+Author=AIDEa
+Version=1.0
+Description=Default AIDEa visual theme.
+
+[Fonts]
+DefaultName=topaz
+DefaultSize=11
+
+[Colors]
+Text=$000000
+Background=$FFFFFF
+EditText=$000000
+EditBackground=$FFFFFF
+PanelBackground=$F0F0F0
+
+[Assets]
+IconSet=default
+CursorSet=default
+
+[CSS]
+Default=default.css
+Help=help.css
+Documentation=documentation.css
+Preview=preview.css

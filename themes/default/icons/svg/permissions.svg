@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 100 100"
+   width="100%"
+   height="100%"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <!-- Lock Shackle Arch (Blue) -->
+  <path
+     d="M 32,46 V 32 C 32,22 40,14 50,14 C 60,14 68,22 68,32 V 46"
+     stroke="#48529A"
+     stroke-width="12"
+     stroke-linecap="round"
+     fill="none"
+     id="path1" />
+  <!-- Lock Body Shield (Magenta) -->
+  <rect
+     x="22"
+     y="46"
+     width="56"
+     height="40"
+     rx="8"
+     stroke="#C55997"
+     stroke-width="12"
+     fill="none"
+     id="rect1" />
+  <!-- Keyhole (Orange & Red) -->
+  <circle
+     cx="50"
+     cy="62"
+     r="5"
+     fill="#EE544B"
+     id="circle1" />
+  <line
+     x1="50"
+     y1="62"
+     x2="50"
+     y2="72"
+     stroke="#F6962A"
+     stroke-width="6"
+     stroke-linecap="round"
+     id="line1" />
+</svg>

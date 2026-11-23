@@ -1,0 +1,64 @@
+# AFileManager hints - Deutsch
+# Copyright (c) 2026 DaniloS
+# MPL-2.0
+#
+# Application-owned hints and richer control descriptions.
+# Shared AROSA widget/window hints belong in the AROSA hint catalogue.
+# Generated/audited against the current AFileManager source and descriptors.
+
+# Navigation and locations
+afilemanager_hint_back=Zurück
+afilemanager_hint_breadcrumbs=Klicken Sie auf einen Ordner, um ihn zu öffnen; klicken Sie in den leeren Bereich, um einen Pfad einzugeben.
+afilemanager_hint_clear_places_filter=Ortsfilter löschen
+afilemanager_hint_filter_places=Text eingeben, um Orte zu filtern und dabei ihren Gruppenpfad beizubehalten.
+afilemanager_hint_forward=Vorwärts
+afilemanager_hint_home=Startort
+afilemanager_hint_places=Wählen Sie eine Ortsgruppe oder einen Ort aus, um ihn zu öffnen.
+afilemanager_hint_primary_path=Aktueller Ort. Geben Sie einen Pfad ein und drücken Sie Enter.
+afilemanager_hint_secondary_path=Sekundärer Ort. Geben Sie einen Pfad ein und drücken Sie Enter.
+afilemanager_hint_up=Übergeordneter Ort
+
+# Filtering and search
+afilemanager_hint_clear_filter=Filter löschen
+afilemanager_hint_clear_search=Suche löschen
+afilemanager_hint_filter_primary=Text eingeben, um die aktuelle Ressourcensammlung zu filtern.
+afilemanager_hint_filter_secondary=Text eingeben, um die sekundäre Ressourcensammlung zu filtern.
+afilemanager_hint_search_primary=Aktuellen Ort durchsuchen. Normaler Text findet Teilzeichenfolgen; AmigaDOS-Muster werden akzeptiert.
+afilemanager_hint_search_secondary=Sekundären Ort durchsuchen. Normaler Text findet Teilzeichenfolgen; AmigaDOS-Muster werden akzeptiert.
+
+# Toolbar view/panel hints
+afilemanager_hint_toolbar_details=Ressourcen in der Detailansicht anzeigen
+afilemanager_hint_toolbar_hidden=Versteckte Dateien ein- oder ausblenden
+afilemanager_hint_toolbar_icons=Ressourcen in der Symbolansicht anzeigen
+afilemanager_hint_toolbar_list=Ressourcen in der Listenansicht anzeigen
+afilemanager_hint_toolbar_metadata=Metadatenbereich ein- oder ausblenden
+afilemanager_hint_toolbar_preview=Vorschaubereich ein- oder ausblenden
+afilemanager_hint_toolbar_redo=Letzten Vorgang wiederholen
+afilemanager_hint_toolbar_split=Zweiten Ortsbereich ein- oder ausblenden
+afilemanager_hint_toolbar_thumbnails=Ressourcenvorschaubilder ein- oder ausblenden
+afilemanager_hint_toolbar_undo=Letzten Vorgang rückgängig machen
+
+# Toolbar descriptions
+afilemanager_desc_toolbar_details=Zeigt Spalten für Typ, Name, Größe, Datum und Berechtigungen. Gilt für den aktiven Bereich.
+afilemanager_desc_toolbar_hidden=Zeigt oder verbirgt als versteckt markierte Dateien und Ordner. Die Einstellung gilt für beide Bereiche.
+afilemanager_desc_toolbar_icons=Zeigt Elemente als Symbolraster. Gilt für den aktiven Bereich.
+afilemanager_desc_toolbar_list=Zeigt nur Namen in kompakten Zeilen. Gilt für den aktiven Bereich.
+afilemanager_desc_toolbar_metadata=Zeigt die Metadatenseite des Bereichs: Größe, Daten, Typ und Datatype-Details des ausgewählten Elements. Sie kann zusammen mit der Vorschauseite geöffnet sein.
+afilemanager_desc_toolbar_preview=Zeigt die Vorschauseite des Bereichs: Bilder, Text, HTML, AmigaGuide und Archivinhalte des ausgewählten Elements. Sie kann zusammen mit der Metadatenseite geöffnet sein.
+afilemanager_desc_toolbar_redo=Führt den zuletzt rückgängig gemachten Dateivorgang erneut aus. Er wird abgelehnt, wenn das Ziel inzwischen belegt ist.
+afilemanager_desc_toolbar_split=Zeigt neben dem ersten einen zweiten Ortsbereich zum Kopieren und Vergleichen zwischen zwei Ordnern.
+afilemanager_desc_toolbar_thumbnails=Zeigt kompakte Vorschaudarstellungen, sofern die ausgewählte Ressource eine bereitstellen kann.
+afilemanager_desc_toolbar_undo=Macht den letzten Dateivorgang rückgängig. Es wird nichts rückgängig gemacht, wenn dadurch seitdem erstellte Daten überschrieben oder entfernt würden.
+
+# Application actions
+afilemanager_hint_about=Versions-, Projekt- und Dokumentationsinformationen anzeigen.
+afilemanager_hint_close_file_manager=Den im zweiten Bereich angezeigten Dateimanager schließen (Ctrl+W)
+afilemanager_hint_configuration=AFileManager konfigurieren.
+afilemanager_hint_help=Integriertes AFileManager-Hilfesystem öffnen.
+afilemanager_hint_info=Build-, Subsystem- und Konfigurationsinformationen anzeigen.
+afilemanager_hint_new_file_manager=Einen weiteren Dateimanager im zweiten Bereich öffnen (Ctrl+T)
+
+# Preview / metadata / status
+afilemanager_metadata_hint=Wählen Sie ein Element aus, um Metadaten anzuzeigen.
+afilemanager_preview_load_hint=Diese Datei herunterladen und ihre Vorschau anzeigen
+afilemanager_status_conflict_hint=Wählen Sie Ersetzen oder Überspringen; aktivieren Sie „auf alle anwenden“ für die verbleibenden Konflikte.

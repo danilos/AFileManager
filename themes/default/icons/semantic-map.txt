@@ -1,0 +1,29 @@
+AROSA shared semantic icon map (default theme, 24px active set)
+================================================================
+
+This theme increment imports the provided AROSA 50-icon set into the shared
+AROSA theme layer. The active runtime set is the 24px pack in:
+  themes/default/icons/
+
+The 16px and 32px packs are preserved under:
+  themes/default/iconpacks/16/
+  themes/default/iconpacks/24/
+  themes/default/iconpacks/32/
+
+The intent is to standardise semantic resource icons across the platform.
+The current runtime consumers are primarily AFileManager icon fallback and
+other AROSA surfaces that request shared theme icons by semantic name.
+
+Primary semantic names:
+  file, folder, text, html, json, xml, pascal, c, cpp, javascript,
+  python, shell, image, png, jpg, svg, pdf, zip, tar, 7z, lha, lzx,
+  archive, audio, mp3, wav, mod, video, mp4, executable, library,
+  desktop, downloads, favorites, network, workspace, drive, device,
+  server, usb, preview, metadata, copy, paste, delete, rename,
+  refresh, search, filter.
+
+Command/action icons that already existed in the platform theme and have no
+replacement in this 50-icon set continue to use their previous assets.
+
+afilemanager_hint_toolbar_thumbnails=Show or hide resource thumbnails
+afilemanager_desc_toolbar_thumbnails=Shows compact preview renditions where the selected resource can provide one.

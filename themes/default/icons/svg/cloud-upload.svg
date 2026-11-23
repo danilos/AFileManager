@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 100 100"
+   width="100%"
+   height="100%"
+   version="1.1"
+   id="svg4"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <!-- Top Cloud Arch (Magenta) -->
+  <path
+     d="M 25,62 C 18,62 14,56 14,48 C 14,40 20,34 28,34 C 32,24 42,18 53,18 C 66,18 76,27 77,39 C 84,40 88,46 88,53 C 88,62 81,62 75,62"
+     stroke="#C55997"
+     stroke-width="12"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     fill="none"
+     id="path1" />
+  <!-- Cloud Base Line (Blue) -->
+  <path
+     d="M 16,62 H 35 M 65,62 H 84"
+     stroke="#48529A"
+     stroke-width="12"
+     stroke-linecap="round"
+     fill="none"
+     id="path2" />
+  <!-- Upload Arrow Stem (Orange) -->
+  <line
+     x1="50"
+     y1="84"
+     x2="50"
+     y2="48"
+     stroke="#F6962A"
+     stroke-width="12"
+     stroke-linecap="round"
+     id="line2" />
+  <!-- Upload Arrow Head (Yellow & Red) -->
+  <path
+     d="M 36,60 L 50,46"
+     stroke="#EE544B"
+     stroke-width="12"
+     stroke-linecap="round"
+     fill="none"
+     id="path3" />
+  <path
+     d="M 50,46 L 64,60"
+     stroke="#FAD13A"
+     stroke-width="12"
+     stroke-linecap="round"
+     fill="none"
+     id="path4" />
+</svg>

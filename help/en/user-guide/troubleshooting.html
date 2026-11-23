@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Troubleshooting</title><link rel="stylesheet" href="../default.css"></head><body>
+<h1>Troubleshooting</h1>
+<h2>A file cannot be read</h2><p>AFileManager asks the file service for a user-visible failure explanation. A file locked exclusively by another process should be reported instead of producing an empty preview without explanation.</p>
+<h2>Preview is blank</h2><p>Confirm that the resource type is recognised by DataTypes and that a presentation provider is available. HTML rendering in this release is still incomplete for modern web content; the help system intentionally uses documentation-style HTML.</p>
+<h2>External operation fails</h2><p>Archive and other external operations may depend on AROSA services or command-line utilities. The operation status/error should identify the immediate failure. Use the diagnostic logging described below when a repeatable problem needs more detail.</p>
+
+<h2>Logging and diagnostics</h2>
+<p>Because this is a technology preview, diagnostic information is particularly important when reporting problems. AROSA provides a common Logging Service used by AFileManager and other AROSA applications and services. Applications publish structured diagnostic events; the Logging Service owns the persistent log files, rotation and retention.</p>
+<p>Logging can be selected by the application descriptor and changed by the user from <strong>Configuration &gt; Diagnostics</strong>. A launch option can temporarily override the saved level for the current application start. AROSA records the effective logging request for each application session.</p>
+
+<h3>Logging levels</h3>
+<table><thead><tr><th>Level</th><th>Purpose</th></tr></thead><tbody>
+<tr><td>Trace</td><td>Very detailed execution flow used to reproduce and investigate difficult defects.</td></tr>
+<tr><td>Debug</td><td>Developer and detailed operational diagnostics.</td></tr>
+<tr><td>Info</td><td>Sparse normal lifecycle and significant operational information.</td></tr>
+<tr><td>Warning</td><td>A recoverable or degraded condition.</td></tr>
+<tr><td>Error</td><td>An operation or capability failed.</td></tr>
+<tr><td>Fatal</td><td>Application or service integrity is at risk.</td></tr>
+</tbody></table>
+<p>The normal preview configuration requests <strong>Info</strong>, so Info, Warning, Error and Fatal events are retained while Debug and Trace remain quiet. Audit events are retained independently of the diagnostic threshold.</p>
+
+<h3>Launch overrides</h3>
+<p><code>AFileManager --verbose</code> requests <strong>Debug</strong> logging for that launch. <code>AFileManager --trace</code> requests <strong>Trace</strong> logging for that launch. These switches do not rewrite the user's saved configuration.</p>
+
+<h3>Log files</h3>
+<p>Each application start has its own timestamped diagnostic session so a new run does not overwrite the previous run. AFileManager logs are written under <code>AROSA:State/AFileManager/Logs/</code>; platform-level Logging Service sessions are written under <code>AROSA:State/Logs/</code>. The established AROSA retention policy limits individual log size, retained file count and total retained size.</p>
+<p>When reporting a defect, include the log from the application session in which the problem occurred, the complete AFileManager version, the AROS build, the operation being performed, the expected and actual result, and a sample resource or screenshot where relevant.</p>
+</body></html>

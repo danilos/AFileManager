@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 100 100"
+   width="100%"
+   height="100%"
+   version="1.1"
+   id="svg2"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <!-- Top Arc (Blue) -->
+  <path
+     d="M 16,50 C 26,30 40,22 50,22 C 60,22 74,30 84,50"
+     stroke="#48529A"
+     stroke-width="12"
+     stroke-linecap="round"
+     fill="none"
+     id="path1" />
+  <!-- Bottom Arc (Magenta) -->
+  <path
+     d="M 84,50 C 74,70 60,78 50,78 C 40,78 26,70 16,50"
+     stroke="#C55997"
+     stroke-width="12"
+     stroke-linecap="round"
+     fill="none"
+     id="path2" />
+  <!-- Diagonal Hide Slash Line (Orange) -->
+  <line
+     x1="22"
+     y1="22"
+     x2="78"
+     y2="78"
+     stroke="#F6962A"
+     stroke-width="10"
+     stroke-linecap="round"
+     id="line2" />
+  <!-- Iris Pupil (Yellow) -->
+  <circle
+     cx="50"
+     cy="50"
+     r="8"
+     fill="#FAD13A"
+     id="circle2" />
+</svg>

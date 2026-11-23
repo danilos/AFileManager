@@ -1,0 +1,64 @@
+# AFileManager hints - English
+# Copyright (c) 2026 DaniloS
+# MPL-2.0
+#
+# Application-owned hints and richer control descriptions.
+# Shared AROSA widget/window hints belong in the AROSA hint catalogue.
+# Generated/audited against the current AFileManager source and descriptors.
+
+# Navigation and locations
+afilemanager_hint_back=Back
+afilemanager_hint_breadcrumbs=Click a folder to open it; click the empty area to type a path.
+afilemanager_hint_clear_places_filter=Clear Places filter
+afilemanager_hint_filter_places=Type text to filter locations while preserving their group path.
+afilemanager_hint_forward=Forward
+afilemanager_hint_home=Home location
+afilemanager_hint_places=Select a location group or location to open it.
+afilemanager_hint_primary_path=Current location. Enter a path and press Enter.
+afilemanager_hint_secondary_path=Secondary location. Enter a path and press Enter.
+afilemanager_hint_up=Parent location
+
+# Filtering and search
+afilemanager_hint_clear_filter=Clear filter
+afilemanager_hint_clear_search=Clear search
+afilemanager_hint_filter_primary=Type text to filter the current resource collection.
+afilemanager_hint_filter_secondary=Type text to filter the secondary resource collection.
+afilemanager_hint_search_primary=Search current location. Plain text matches substrings; AmigaDOS patterns are accepted.
+afilemanager_hint_search_secondary=Search secondary location. Plain text matches substrings; AmigaDOS patterns are accepted.
+
+# Toolbar view/panel hints
+afilemanager_hint_toolbar_details=Show resources in details view
+afilemanager_hint_toolbar_hidden=Show or hide hidden files
+afilemanager_hint_toolbar_icons=Show resources in icon view
+afilemanager_hint_toolbar_list=Show resources in list view
+afilemanager_hint_toolbar_metadata=Show or hide the metadata panel
+afilemanager_hint_toolbar_preview=Show or hide the preview panel
+afilemanager_hint_toolbar_redo=Redo the last operation
+afilemanager_hint_toolbar_split=Show or hide the second location pane
+afilemanager_hint_toolbar_thumbnails=Show or hide resource thumbnails
+afilemanager_hint_toolbar_undo=Undo the last operation
+
+# Toolbar descriptions
+afilemanager_desc_toolbar_details=Shows columns for type, name, size, date and permissions. Applies to the active pane.
+afilemanager_desc_toolbar_hidden=Shows or hides files and folders marked as hidden. The setting applies to both panes.
+afilemanager_desc_toolbar_icons=Shows items as a grid of icons. Applies to the active pane.
+afilemanager_desc_toolbar_list=Lists names only, in compact rows. Applies to the active pane.
+afilemanager_desc_toolbar_metadata=Shows the Metadata page of the panel: size, dates, type and datatype details of the selected item. It can be open together with the Preview page.
+afilemanager_desc_toolbar_preview=Shows the Preview page of the panel: images, text, HTML, AmigaGuide and archive contents of the selected item. It can be open together with the Metadata page.
+afilemanager_desc_toolbar_redo=Applies the last undone file operation again. It is refused if the destination is now occupied.
+afilemanager_desc_toolbar_split=Shows a second location pane beside the first, for copying and comparing between two folders.
+afilemanager_desc_toolbar_thumbnails=Shows compact preview renditions where the selected resource can provide one.
+afilemanager_desc_toolbar_undo=Reverses the last file operation. Nothing is undone if it would overwrite or remove data created since.
+
+# Application actions
+afilemanager_hint_about=Show version, project and documentation information.
+afilemanager_hint_close_file_manager=Close the file manager shown in the second view (Ctrl+W)
+afilemanager_hint_configuration=Configure AFileManager.
+afilemanager_hint_help=Open the integrated AFileManager help system.
+afilemanager_hint_info=Show build, subsystem and configuration information.
+afilemanager_hint_new_file_manager=Open another file manager in the second view (Ctrl+T)
+
+# Preview / metadata / status
+afilemanager_metadata_hint=Select an item to view metadata.
+afilemanager_preview_load_hint=Download this file and show its preview
+afilemanager_status_conflict_hint=Choose Replace or Skip; tick "apply to all" for the remaining conflicts.
