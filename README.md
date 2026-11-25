@@ -62,3 +62,8 @@ terms or publication timing for future AFileManager or AROSA releases.
 SDK-built AFileManager successfully launched and rendered its graphical interface on 64-bit AROS (23 November 2026). This screenshot confirms startup/UI rendering, not all filesystem operations or long-term stability.
 
 ![AFileManager running on AROS x86_64](screenshots/AFileManager-0.18.6.0.0.0-x86_64-AROS.png)
+
+
+## Community and Contribution Principles
+
+See the [Community and Contribution Principles](https://github.com/danilos#community-and-contribution-principles).
